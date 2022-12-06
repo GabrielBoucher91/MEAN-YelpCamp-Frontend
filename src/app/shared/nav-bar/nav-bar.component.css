@@ -1,0 +1,10 @@
+.navbar {
+  @apply flex;
+  @apply justify-between;
+  @apply items-center;
+  @apply flex-row;
+  @apply mx-auto;
+  @apply w-full;
+  @apply h-12;
+  @apply bg-slate-500/30;
+}
