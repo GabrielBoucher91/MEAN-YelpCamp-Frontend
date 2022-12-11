@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#E63946",
+        primary_hover: "#BD303B",
+        secondary: "#457B9D",
+        secondary_hover: "#457B9D",
+      },
+    },
   },
   plugins: [],
 };
