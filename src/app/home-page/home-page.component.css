@@ -12,7 +12,23 @@
   @apply mx-auto;
   @apply w-full;
   @apply h-24;
-  @apply px-4;
+  @apply px-5;
   @apply text-white;
   @apply bg-gradient-to-b from-black/70 to-black/0;
+}
+
+.images {
+  @apply w-full rounded-xl my-4 hover:drop-shadow-1image transition-all duration-300;
+}
+
+.loginslinks {
+  @apply h-10 w-24 ml-4 rounded-md flex justify-center items-center transition-colors duration-300 font-bold;
+}
+
+.signup {
+  @apply bg-primary hover:bg-primary_hover;
+}
+
+.login {
+  @apply bg-white text-primary hover:bg-slate-300;
 }
