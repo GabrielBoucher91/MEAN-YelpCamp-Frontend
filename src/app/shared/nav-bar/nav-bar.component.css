@@ -5,6 +5,20 @@
   @apply flex-row;
   @apply mx-auto;
   @apply w-full;
-  @apply h-12;
-  @apply bg-slate-500/30;
+  @apply h-20;
+  @apply px-5;
+  @apply text-white;
+  @apply bg-gray-400;
+}
+
+.loginslinks {
+  @apply h-10 w-24 ml-4 rounded-md flex justify-center items-center transition-colors duration-300 font-bold;
+}
+
+.signup {
+  @apply bg-secondary hover:bg-secondary_hover;
+}
+
+.login {
+  @apply bg-white text-secondary hover:bg-slate-300;
 }

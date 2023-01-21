@@ -1,1 +1,18 @@
-<nav class="navbar">This is a navbar</nav>
+<nav class="navbar">
+  <div class="text-2xl font-bold underline text-secondary">YelpCamp</div>
+  <div class="flex flex-row justify-between items-center">
+    <input
+      type="text"
+      class="h-8 w-80 rounded-md mr-2 text-gray-500 text-sm p-1 bg-slate-50"
+    />
+    <button
+      class="h-10 w-24 rounded-md flex justify-center items-center font-bold bg-secondary hover:bg-secondary_hover"
+    >
+      Search
+    </button>
+  </div>
+  <div class="flex flex-row justify-between items-center">
+    <a routerLink="/user/signup" class="loginslinks signup">Sign Up</a>
+    <a routerLink="/user/login" class="loginslinks login">Login</a>
+  </div>
+</nav>
